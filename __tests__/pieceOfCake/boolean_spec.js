@@ -24,7 +24,6 @@ describe('for boolean type', () => {
       // eslint-disable-next-line no-self-compare, eqeqeq, yoda
       3 === 3, 3 === '3', objectLeft === objectRight, null === undefined,
     ];
-
     // <--start
     // Please write down the correct value. You should write the final result directly.
     const expected = [true, false, false, false];
