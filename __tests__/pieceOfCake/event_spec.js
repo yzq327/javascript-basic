@@ -25,7 +25,6 @@ describe('for event', () => {
   it('should invoke multiple times', (done) => {
     const element = new EventEmitter();
     const logs = [];
-
     element.addListener('click', () => logs.push('I have been clicked'));
     element.emit('click');
     element.emit('click');
