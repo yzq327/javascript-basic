@@ -291,7 +291,6 @@ describe('for function', () => {
     // Please write down the correct value. You should write the final result directly.
     const expected = [0, 2, 4];
     // --end->
-
     expect(logs).toEqual(expected);
   });
 });
