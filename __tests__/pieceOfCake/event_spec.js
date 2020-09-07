@@ -49,6 +49,7 @@ describe('for event', () => {
       logs.push('I have been clicked');
       element.removeAllListeners('click');
     });
+
     element.emit('click');
     element.emit('click');
     waitForEvents()
