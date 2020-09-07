@@ -48,7 +48,6 @@ describe('for event', () => {
       logs.push('I have been clicked');
       element.removeAllListeners('click');
     });
-
     element.emit('click');
     element.emit('click');
     waitForEvents()
@@ -57,7 +56,6 @@ describe('for event', () => {
         // Please write down the correct value. You should write the final result directly.
         const expected = ['I have been clicked'];
         // --end->
-
         expect(logs).toEqual(expected);
         done();
       });
