@@ -51,7 +51,6 @@ describe('for event', () => {
     });
     element.emit('click');
     element.emit('click');
-
     waitForEvents()
       .then(() => {
         // <--start
