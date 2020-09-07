@@ -45,7 +45,6 @@ describe('for event', () => {
   it('should remove event listener', (done) => {
     const element = new EventEmitter();
     const logs = [];
-
     element.addListener('click', () => {
       logs.push('I have been clicked');
       element.removeAllListeners('click');
